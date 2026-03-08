@@ -1,0 +1,126 @@
+body{
+margin:0;
+font-family:'Orbitron', sans-serif;
+background:black;
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:linear-gradient(to right,#000428,#004e92);
+}
+
+.logo{
+font-size:24px;
+}
+
+.menu{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.menu a{
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:0.3s;
+}
+
+.menu a:hover
+
+/* HERO SECTION */
+
+.hero{
+height:100vh;
+
+background-image:url("image/space.jpg");
+background-size:cover;
+background-position:center;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:70px;
+text-shadow:0 0 15px #00d9ff;
+}
+
+.hero p{
+font-size:20px;
+max-width:600px;
+margin-bottom:30px;
+}
+
+.hero button{
+padding:14px 30px;
+font-size:18px;
+border:none;
+border-radius:8px;
+background:#00d9ff;
+color:black;
+cursor:pointer;
+transition:0.3s;
+}
+
+.hero button:hover{
+background:white;
+}
+
+/* PLANETS SECTION */
+
+.planets{
+text-align:center;
+padding:60px 20px;
+}
+
+.planets h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.planet-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#111;
+padding:20px;
+border-radius:15px;
+width:220px;
+transition:0.3s;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #00d9ff;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#020024;
+margin-top:40px;
+font-size:14px;
+}
